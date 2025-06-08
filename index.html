@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crystal Clear Car Detail</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #000000, #800000);
+      color: #fff;
+      text-align: center;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      padding: 20px 0;
+      position: relative;
+    }
+
+    h1 {
+      font-size: 4em;
+      text-transform: uppercase;
+      margin: 10px 0;
+    }
+
+    .header-text {
+      color: #ff0000;
+    }
+
+    .header-text span {
+      color: #fff;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #ff0000;
+      color: white;
+      padding: 15px 30px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 1.2em;
+      margin-top: 10px;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: #cc0000;
+    }
+
+    .section {
+      margin: 20px 0;
+      padding: 0 10px;
+    }
+
+    .description {
+      max-width: 800px;
+      margin: 0 auto;
+      font-size: 1em;
+      line-height: 1.6;
+      text-align: center;
+    }
+
+    .service-pairs {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .service-item {
+      flex: 1;
+      min-width: 250px;
+      max-width: 300px;
+    }
+
+    .service-box {
+      background: #ff0000;
+      padding: 15px;
+      border-radius: 10px;
+      color: #fff;
+      text-align: center;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .service-box h3 {
+      margin: 5px 0;
+      font-size: 1.2em;
+    }
+
+    .service-box p {
+      font-size: 0.9em;
+      margin: 5px 0;
+    }
+
+    .contact {
+      padding: 20px 0;
+    }
+
+    .contact img {
+      width: 25px;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+
+    .contact a, .contact div {
+      color: #fff;
+      text-decoration: none;
+      margin: 10px 0;
+      font-size: 0.9em;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 3em;
+      }
+
+      .button {
+        padding: 10px 20px;
+        font-size: 1em;
+      }
+
+      .description {
+        font-size: 0.9em;
+      }
+
+      .service-pairs {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .service-item {
+        max-width: 100%;
+      }
+
+      .service-box {
+        height: auto;
+        min-height: 180px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 2em;
+      }
+
+      .button {
+        padding: 8px 15px;
+        font-size: 0.9em;
+      }
+
+      .description {
+        font-size: 0.8em;
+      }
+
+      .section {
+        margin: 15px 0;
+      }
+
+      .service-box {
+        padding: 10px;
+        min-height: 150px;
+      }
+
+      .contact img {
+        width: 20px;
+      }
+    }
+  </style>
+</head>
+<body id="top">
+
+  <header>
+    <img src="logo.png" alt="Crystal Clear Car Detail Logo" style="position: absolute; top: 20px; left: 20px; width: 150px; height: auto;">
+    <h1><span class="header-text">CRYSTAL CLEAR</span><br><span>CAR DETAIL</span></h1>
+    <a href="https://form.everestwebdeals.co/?form=0b6e10ed77338b4f2f2b62435770e1a2" class="button" target="_blank">BOOK NOW</a>
+  </header>
+
+  <section class="section">
+    <h2 style="text-align: center;">The Art of Detailing</h2>
+    <div class="description">
+      At Crystal Clear Car Detail, we believe in giving your car the kind of care and attention that makes it feel like new again. We don’t just wash cars – we make them sparkle, inside and out. We use only the best products and techniques to ensure your car gets the best treatment possible. From restoring that showroom shine on the outside to deep cleaning and refreshing the interior, we go the extra mile to make sure every detail is perfect. Your car is more than just a way to get from point A to point B – it's a part of your life. That’s why we focus on making it last longer and look better. A clean car is a happy car, and we’re here to help keep yours in top condition.
+    </div>
+  </section>
+
+  <section class="section service-pairs">
+    <div class="service-item">
+      <div class="service-box">
+        <h3>Exterior Detailing</h3>
+        <p>Expert cleaning and protection with a thorough wash, tire shining, and meticulous treatment to ensure all windows and the windshield are crystal clear.</p>
+      </div>
+    </div>
+
+    <div class="service-item">
+      <div class="service-box">
+        <h3>Interior Detailing</h3>
+        <p>Complete interior cleaning with deep vacuuming, thorough shampooing of carpets and upholstery, and detailed care to leave all surfaces spotless and refreshed.</p>
+      </div>
+    </div>
+
+    <div class="service-item">
+      <div class="service-box">
+        <h3>Full Detailing</h3>
+        <p>A comprehensive service to restore your vehicle’s exterior shine, protect its surfaces, and transform the interior to like-new condition.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="section contact">
+    <h2>Contact</h2>
+    <div><img src="instagram.png" alt="Instagram Logo" /><a href="https://www.instagram.com/510crystal_clear/" target="_blank">@510crystal_clear</a></div>
+    <div><img src="phone.png" alt="Phone Logo" /> 510 - 730 - 1702</div>
+    <div><img src="email.png" alt="Email Logo" /> crystalclearcarsdetails@gmail.com</div>
+  </footer>
+
+</body>
+</html>

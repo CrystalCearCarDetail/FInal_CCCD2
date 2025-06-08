@@ -1,0 +1,18 @@
+.service-pairs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .service-item {
+    flex: 1 1 300px;
+    max-width: 400px;
+  }
+  
+  .service-item video {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  
